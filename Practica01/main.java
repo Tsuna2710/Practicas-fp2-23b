@@ -10,7 +10,7 @@ public class main {
         Student Estudiante;
 
         try{
-            BufferedReader reader= new BufferedReader(new FileReader("C:\\Users\\USER\\Documents\\UNsa\\2023-B\\Practicas fp2-23b\\Practica01\\Datos.csv"));
+            BufferedReader reader= new BufferedReader(new FileReader("Datos.csv"));
             String line = null;
             while((line=reader.readLine()) != null){
                 String[] parts=line.split(";");
